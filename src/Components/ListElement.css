@@ -1,0 +1,50 @@
+.Content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  background-color: #f5de9b;
+  border-radius: 25px;
+  border: 2px solid rgb(70, 70, 70);
+  margin: 5px 0px;
+}
+
+.Content-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: rgb(70, 70, 70);
+  padding: 5px;
+  margin: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Checked {
+  text-decoration: line-through;
+}
+
+.Remove-button {
+  background-color: #f5b19b;
+  color: black;
+  font-weight: bold;
+  border-radius: 50%;
+  border: none;
+  height: 40px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 800px) {
+    .Content-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        background-color: #f5de9b;
+        border-radius: 25px;
+        border: 2px solid rgb(70, 70, 70);
+        margin: 5px 0px;
+      }
+    }
